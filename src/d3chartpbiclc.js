@@ -474,7 +474,7 @@
 			selectedDateFromUrl =
 				new URLSearchParams(window.location.search).get("date") || "04_21_2026",
 			dataUrl =
-				"/data/Contribution_" + selectedDateFromUrl + ".csv",
+				"/datacomparison/data/Contribution_" + selectedDateFromUrl + ".csv",
 			flagsUrl = "https://cbpfgms.github.io/img/assets/flags24.json",
 			masterRegionalFundsUrl =
 				"https://cbpfgms.github.io/pfbi-data/mst/MstRhpf.json",
